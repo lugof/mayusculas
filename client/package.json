@@ -1,0 +1,34 @@
+{
+  "name": "vape",
+  "version": "0.1.0",
+  "description": "vapeMty",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.5.5",
+    "axios": "^0.18.0",
+    "babel-preset-react-app": "^9.0.0",
+    "bootstrap": "^4.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mariadb": "^2.1.0",
+    "mysql2": "^1.6.5",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "reactstrap": "^8.0.1",
+    "sequelize": "^5.11.0"
+  },
+  "proxy": "http://localhost:3001/",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
