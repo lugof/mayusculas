@@ -1,7 +1,10 @@
 {
   "name": "vape",
   "version": "0.1.0",
-  "engines" : { "node" : ">=0.10" },
+  "engines": {
+    "node": "11.10.0",
+    "npm": "6.7.0"
+  },
   "engineStrict" : true,
   "dependencies": {
     "@babel/runtime": "^7.5.5",
